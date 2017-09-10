@@ -8,7 +8,7 @@ MainWindow::MainWindow(QWidget *parent) :
     ui(new Ui::MainWindow)
 {
     ui->setupUi(this);
-    connect(ui->Calcular,SIGNAL(clicked()),this,SLOT(metodo()));
+    connect(ui->Metodo,SIGNAL(clicked()),this,SLOT(metodo()));
     connect(ui->Borrar,SIGNAL(clicked()),this,SLOT(borrar()));
 
 }
